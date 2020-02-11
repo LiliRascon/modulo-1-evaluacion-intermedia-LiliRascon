@@ -10,7 +10,7 @@
     top: 0;
     right: 0;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     background-color: white;
     padding-left: 100px;
     font-family: 'Rubik', sans-serif;
