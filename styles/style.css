@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
 }
+
 .header {
     width: 100%;
-    height: 100px;
+    height: 150px;
     display: flex;
     position: fixed;
     top: 0;
@@ -17,25 +18,29 @@
 
 .menu ul li {
     display: inline;
+    
 }
 
 .menu ul li a {
     font-size: 16px;
     color: white;
-    padding: 5px;
+    padding-right: 20px;
     color: #4a4a4a;
     text-decoration: none;
+    
+}
+.menu ul {
+    padding-bottom: 13px;
 }
 
 .container1 {
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #3CDBC0;
     width: 100%;
     height: 1400px;
-   
 }
 
 .titleppal {
@@ -43,8 +48,11 @@
     color: #FFFFFF;
     font-size: 30px;
 }
+
 .logo {
     width: 155px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media all and (min-width:768px) {
@@ -66,4 +74,12 @@
         color: #FFFFFF;
         font-size: 40px;
     }
+    .logo {
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
+    .contacto {
+        padding-right: 30px;
+    }
+}
